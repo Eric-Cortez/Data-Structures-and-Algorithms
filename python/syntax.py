@@ -89,9 +89,34 @@ def test():
 x = "awesome"
 
 def myfunc():
-    print("python is" + x)
+    x = "fantastic"
+    print("python is " + x)
     
     
 myfunc()
 
 
+
+#  create a global variable inside a function,
+def test():
+    global x 
+    x = "milo"
+    
+    
+test()
+
+print("python is " + x)
+
+
+# use the global keyword if you want to make a
+# change to a global variable inside a function.
+a = "felix"
+
+def cat():
+    global a
+    a = "milo"
+    
+    
+cat()
+
+print("my cat is " + a)
