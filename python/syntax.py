@@ -64,6 +64,16 @@ my_test = "Hello World"
 x, y, z = "Orange", "Banana", "Cherry"
 print(x,y,z)
 
+
+# Unpacking a collection
+# if you have a collection of values in a list, tuple etc. 
+# Python allows you extract the values into variables.
+# This is called unpacking.
+
+fruit = ["apple", "banana", "cherry"]
+x, y, z = fruit
+print (x,y,z)
+
 # Python has commenting capability for the purpose of in-code documentation.
 
 def test():
