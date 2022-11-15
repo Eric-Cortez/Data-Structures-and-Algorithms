@@ -1,4 +1,4 @@
-# Comments starts with a  # , and Python will ignore them
+
 
 # Python print statement
 print("Hello World")
@@ -17,11 +17,30 @@ print("Hello World")
 # if 5 > 2:
 #     print ("Five is greater than two!")
 
+# VARIABLES
 # In python variables are created when you assign a value to it
 x = 5 
 y = "John"
+print(x,y)
 # Python has no command for declaring a variable.
+# Casting 
+x = str(3) # x will be '3'
+y = int(3) # y will be 3
+z = float(3) # z will be 3.0
 
+# Get the type 
+x = 5 
+y = "John"
+print(type(x)) # <class 'int'>
+print(type(y)) # <class 'str'>
+
+# COMMENTS
+# Comments starts with a  # , and Python will ignore them
+
+# variable names are case-sensitive
+a = 4
+A = "Sally"
+print(a,A)
 
 # Python has commenting capability for the purpose of in-code documentation.
 
