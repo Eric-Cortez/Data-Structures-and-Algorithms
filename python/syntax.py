@@ -42,6 +42,23 @@ a = 4
 A = "Sally"
 print(a,A)
 
+# VARIABLE NAMES
+# name rules
+#  variables must start with a letter or the underscore character
+#  variables cannot start with a number
+#  variables can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )   
+#  variable names are case-sensitive (age, Age and AGE are three different variables)
+
+# Camel Case
+myTest = "Hello World"
+
+# Pascal Case
+myTest = "Hello World"
+
+# Snake Case
+my_test = "Hello World"
+
+
 # Python has commenting capability for the purpose of in-code documentation.
 
 def test():
