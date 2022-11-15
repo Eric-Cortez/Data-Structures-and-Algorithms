@@ -82,4 +82,16 @@ def test():
     """
     pass
 
+# Global Variables
+# variables that are created outside of a function 
+# Global variables can be used by everyone, both inside of functions and outside.
+
+x = "awesome"
+
+def myfunc():
+    print("python is" + x)
+    
+    
+myfunc()
+
 
