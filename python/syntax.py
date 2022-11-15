@@ -59,6 +59,11 @@ myTest = "Hello World"
 my_test = "Hello World"
 
 
+# Many values to multiple variables
+
+x, y, z = "Orange", "Banana", "Cherry"
+print(x,y,z)
+
 # Python has commenting capability for the purpose of in-code documentation.
 
 def test():
