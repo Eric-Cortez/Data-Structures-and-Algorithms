@@ -57,7 +57,17 @@ const symApple = Symbol("apple");
 
 // Example of using symbols as keys to prevent the name collision
 
+const dog = {};
+const dogId = Symbol("id");
+dog[dogId] = 39; //{ [Symbol(id)]: 39 }
+// console.log(dog)
 
+const secondDogId = Symbol("id");
+dog[secondDogId] = 42; //{ [Symbol(id)]: 39, [Symbol(id)]: 42 }
+console.log(dog[dogId]) // 39
+console.log(dog[secondDogId]) //42
+console.log(dog) // { [Symbol(id)]: 39, [Symbol(id)]: 42 }
 
-
+// we can access our key value pairs using bracket notation and passing in the variable
+// we assigned our symbol to in this case dogId and secondDogId
 
