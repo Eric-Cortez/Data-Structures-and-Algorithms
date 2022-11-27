@@ -1,6 +1,7 @@
 /**Object data structure 
  * The object type in JS is a data structure that allows us to store data in key-value pairs.
  * 
+ * POJO stands for plain old javascript objects 
  */
 
 // 1. Using a symbol as a key
