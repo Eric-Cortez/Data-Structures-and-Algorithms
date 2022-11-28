@@ -26,3 +26,9 @@
 // 9) Backlog grooming performed by the product owner to ensure that the backlog of stories is well ordered and defined
 
 // That's the framework of Scrum, the most popular Agile software development methodology in use today.
+
+// Sprint 
+// That they are timeboxed; 
+// That they have a short and consistent duration
+// That they have an unalterable goal; and,
+// That they can only conclude using the team’s definition of done.
